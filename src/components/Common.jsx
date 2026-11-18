@@ -1,16 +1,13 @@
 import React from 'react';
+import rrOfficialLogo from '../assets/rr_official_logo.jpg';
 
 export function RRCrest({ className = "w-12 h-12" }) {
   return (
-    <div className={`relative overflow-hidden rounded-2xl flex items-center justify-center ${className}`}>
+    <div className={`relative overflow-hidden rounded-2xl flex items-center justify-center bg-white ${className}`}>
       <img
-        src="/rr_official_logo.jpg"
+        src={rrOfficialLogo}
         alt="Rajasthan Royals Official Crest"
-        className="w-full h-full object-cover rounded-2xl shadow-sm"
-        onError={(e) => {
-          // Fallback if image fails
-          e.target.style.display = 'none';
-        }}
+        className="w-full h-full object-cover rounded-2xl"
       />
     </div>
   );
