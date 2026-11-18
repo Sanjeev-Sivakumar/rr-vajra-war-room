@@ -1,0 +1,88 @@
+{
+  "total_balls": 199029,
+  "total_matches": 842,
+  "inn1_auc": 0.8834,
+  "inn2_auc": 0.9654,
+  "peak_threshold_psi": 0.1371,
+  "peak_balls_total": 39806,
+  "dead_rubber_rejection_pct": 99.91,
+  "backtest": {
+    "train_seasons": "2022-2024",
+    "test_seasons": "2025-2026",
+    "vajra_spearman_rho": 0.302,
+    "vajra_p_value": 0.0084,
+    "naive_spearman_rho": 0.12,
+    "naive_p_value": 0.2841,
+    "predictive_lift": "2.5x"
+  },
+  "reputation_traps": [
+    {
+      "name": "Mitchell Starc",
+      "role": "Bowler",
+      "rank": 78,
+      "baseline_econ": 7.64,
+      "peak_econ": 11.23,
+      "pressure_delta": -50.79,
+      "discipline_score": -14.6,
+      "diagnosis": "Severe boundary leakage under peak leverage; erratic lengths when batsman challenges line."
+    },
+    {
+      "name": "Nathan Ellis",
+      "role": "Bowler",
+      "rank": 73,
+      "baseline_econ": 7.82,
+      "peak_econ": 11.16,
+      "pressure_delta": -47.96,
+      "discipline_score": -12.1,
+      "diagnosis": "Predictable slower-ball patterns punished heavily when boundary protection is compromised."
+    },
+    {
+      "name": "Shivam Dube",
+      "role": "Batter",
+      "rank": 82,
+      "baseline_sr": 158.4,
+      "peak_sr": 112.5,
+      "pressure_delta": -38.21,
+      "panic_drift": "+14.8%",
+      "diagnosis": "Cognitive paralysis against hard-length pace; dot-ball freeze forces premature slogging."
+    },
+    {
+      "name": "Faf du Plessis",
+      "role": "Batter",
+      "rank": 69,
+      "baseline_sr": 148.2,
+      "peak_sr": 119.8,
+      "pressure_delta": -30.05,
+      "panic_drift": "+11.2%",
+      "diagnosis": "High early-innings baseline degrades significantly when required rate climbs above 12."
+    },
+    {
+      "name": "Babar Azam",
+      "role": "Batter",
+      "rank": 62,
+      "baseline_sr": 134.1,
+      "peak_sr": 111.4,
+      "pressure_delta": -27.57,
+      "panic_drift": "+9.4%",
+      "diagnosis": "Low boundary boundary generation creates compounding pressure deficit for partner."
+    }
+  ],
+  "deterrence_paradox": [
+    {
+      "name": "Jasprit Bumrah",
+      "role": "Bowler",
+      "rank": 16,
+      "peak_econ": 6.84,
+      "choke_assists": 44,
+      "deterrence_note": "Opponents consciously refuse to take attack risks, playing defensive singles (0 risk). Wickets fall to bowling partners."
+    },
+    {
+      "name": "Rashid Khan",
+      "role": "Bowler",
+      "rank": 14,
+      "peak_econ": 6.95,
+      "choke_assists": 55,
+      "deterrence_note": "Extreme negative dot-ball pressure builds at his end; batsman releases pressure against subsequent over bowlers."
+    }
+  ]
+}
